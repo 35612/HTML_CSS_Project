@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        .split
+        {
+            width: 50%;
+            height: 100%;
+            position: fixed;
+            overflow-x: hidden;
+    
+        }
+
+        .container1
+        {
+            top: 0;
+            left: 0;
+            text-align: center;
+            background-color: lightsalmon;
+        } 
+
+        .t1
+        {
+            padding-left: 10px;
+            padding-right: 10px;
+            color: black;
+            text-align: center;
+        }
+        
+        .container2
+        {
+            top: 0;
+            right: 0;
+            text-align: center;
+            background-color: lightsalmon;
+            color: black;
+        }
+
+        .t2
+        {
+            width: 70%;
+            height: 90%;
+            text-align: left;
+            background-color: white;
+            margin-left: 50px;
+            padding-left: 10%;
+            border-radius: 20px;
+            box-shadow: 10px 10px;
+        }
+
+        .container2 input
+        {
+            margin: 10px;
+            width: 200px;
+            height: 20px;
+            border-radius: 5px;
+            box-shadow: 5px;
+        }
+
+        #sb
+        {
+            background-color: green;
+            border-radius: 5px;
+            height: 40px;
+            width: 80%;
+            font-size: large;
+            color: white;
+            box-shadow: 5px;
+        }
+
+        #sb:hover
+        {
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="split container1">
+        <h2 style="text-align: center">Let's Work Together</h2>
+        <div class="t1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem repudiandae sed unde nemo, possimus dolorum eum debitis similique asperiores quos maiores, mollitia tempore, itaque quasi? Alias consequuntur beatae provident dignissimos!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, pariatur quisquam maiores at voluptates explicabo et facere minus dolor ex animi harum sint nulla repudiandae, consequatur ratione fugit id cumque.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis laborum, officia vel cupiditate assumenda velit nam doloremque quo tenetur voluptates ut molestiae magni beatae iste ipsa hic odio dolorem esse.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ab vero labore culpa, blanditiis corporis temporibus quam perspiciatis commodi deleniti iste earum asperiores exercitationem explicabo rem dolore. Tempora, veniam libero.</p>
+            <br>
+            <a href="www.google.com">Click Me</a>
+            <br>
+            <br>
+            <img src="Micky.png" alt="None" width="200px" height="200px">
+        </div>
+        <div class="split container2">
+            <div class="t2">
+                <form action="#">
+                <table>
+                    <h2 style="text-align: center; padding-top:10px;">HOW CAN WE HELP YOU?</h2>
+                    <tr>
+                        <td><label for="nm"><b>Name : </b></label></td>
+                        <td><input type="text" placeholder="Your Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="org"><b>Organization : </b></label></td>
+                        <td><input type="text" placeholder="Your Organization" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="em"><b>Email : </b></label></td>
+                        <td><input type="email" placeholder="Your Email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="project"><b>Project Description : </b></label></td>
+                        <td><textarea name="" id="" cols="30" rows="10" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="budget"><b>Budget : </b></label></td>
+                        <td><input type="number" placeholder="Your Budget" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="target" required><b>Target Launch</b></label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <input type="submit" id="sb" value="submit">
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
